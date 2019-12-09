@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="219dp"
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/cons"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="366dp"
+        android:layout_height="236dp"
+        android:text="Notre mission principale est de promouvoir toute la richesse de notre pays à travers ses produits alimentaires, ses produits de terroir et son artisanat.  Aussi, nous tâcherons de subvenir au besoin des Tunisiens en particulier et tous ceux qui aiment les produits Tunisiens de façon générale à se faire livrer des produits Tunisiens de qualité et à moindre prix"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Propos"
+        android:textColor="#009688"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="341dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group >
+        <item
+            android:id="@+id/nav_camera"
+            android:title="page d'acceuil" />
+        <item
+            android:id="@+id/nav_liste"
+            android:title="Liste des produits" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Comparaison des produits" />
+
+    </group>
+
+    <item android:title="A propos">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="plus .." />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="contact" />
+
+
+
+                </menu></item>
+    <item  android:title="langue" >
+        <menu>
+            <item
+                android:id="@+id/nav_ar"
+
+                android:title="arabe" />
+            <item
+                android:id="@+id/nav_fr"
+
+                android:title="francais" />
+        </menu>
+    </item>
+
+
+</menu>

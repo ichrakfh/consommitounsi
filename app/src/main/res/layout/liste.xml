@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="183dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/kit"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="232dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/mom"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="166dp"
+        android:layout_height="129dp"
+        app:srcCompat="@drawable/milk"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="157dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/maes"
+        tools:layout_editor_absoluteX="399dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="158dp"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/nutl"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="174dp"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/said"
+        tools:layout_editor_absoluteX="382dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comparaison entre les produits"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="53dp"
+        android:layout_height="10dp"
+        android:text="Next"
+        tools:layout_editor_absoluteX="506dp"
+        tools:layout_editor_absoluteY="132dp" />
+</android.support.constraint.ConstraintLayout>

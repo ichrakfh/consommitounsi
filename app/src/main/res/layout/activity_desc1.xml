@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="194dp"
+        android:layout_height="102dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:text="Description"
+        android:textColor="#9C27B0"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="395dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/ic_location_city_black_24dp"
+        android:text="Un petit snack gourmand et léger qui vous accompagne où que vous alliez. Grâce à son format, vous pouvez le glisser dans votre poche et compter sur lui dès que votre appétit se réveille. Un vrai plaisir chocolaté et une légère et délicieuse gaufrette"
+        android:textAllCaps="false"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textViewin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="351dp"
+        android:text="Sucre, farine de blé, lait en poudre, beurre de cacao, masse de cacao, huile de soja hydrogénée, émulsifiant – lécithine de soja (E322), agent de levée, bicarbonate de sodium (E500), sel, arôme identique nature (vanilline), cacao dans le chocolat (25%)."
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/textViewdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="323dp"
+        android:text="Ingrédients"
+        android:textColor="#9C27B0" />
+</RelativeLayout>
